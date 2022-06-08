@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+  background-color: #dee2e6;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.calc-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(6, 70px);
+}
+
+.calc-result {
+  grid-column: 1/span 4;
+  background-color: slategrey;
+  color: #fff;
+  text-align: right;
+  padding: 18px;
+  font-size: 30px;
+}
+
+button {
+  color: black;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #343a34;
+  background-color: navajowhite;
+}
+
+button:hover{
+  background-color: #295050;
+  border: 1px solid #495057;
+}
+
+.zero {
+  grid-column: 1/span 2;
+}
+
+.operators {
+  background-color: darkorange;
+  font-size: 18px;
+}
