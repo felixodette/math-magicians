@@ -8,9 +8,17 @@ class Button extends Component {
   }
 
   render() {
-    const { buttonClass, eventHandler, value } = this.props;
+    const {buttonClass, eventHandler, value} = this.props;
     return (
       <button type="button" className={buttonClass} onClick={eventHandler}>{value}</button>
     );
   }
 }
+
+Button.propTypes = {
+  buttonClass: PropTypes.string,
+  eventHandler: PropTypes.func.isRequired,
+  value: PropTypes.string.isRequired,
+};
+
+
