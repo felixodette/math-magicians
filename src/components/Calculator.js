@@ -5,10 +5,10 @@ import calculate from '../logic/calculate';
 // render using hooks
 const Calculator = () => {
   const [state, setState] = useState({
-      total: 0,
-      next: null,
-      operation: null,
-    });
+    total: 0,
+    next: null,
+    operation: null,
+  });
 
   const calculateResult = (event) => {
     const result = calculate(state, event.target.innerText);
