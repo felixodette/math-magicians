@@ -6,42 +6,42 @@ class Calculator extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      totalResult: '0',
+      total: '0',
       next: null,
       operation: null,
     };
-    this.getResult = this.getResult.bind(this);
+    this.calculateResult = this.calculateResult.bind(this);
   }
 
-  getResult = (event) => {
+  calculateResult = (event) => {
     const result = calculate(this.state, event.target.innerText);
     this.setState(result);
   }
 
   render() {
-    const { totalResult, operation, next } = this.state;
+    const { total, operation, next } = this.state;
     return (
       <div className="calc-container">
-        <div className="calc-result">{`${totalResult || ''} ${operation || ''} ${next || ''}`}</div>
-        <Button eventHandler={this.getResult} value="AC" />
-        <Button eventHandler={this.getResult} value="+/-" />
-        <Button eventHandler={this.getResult} value="%" />
-        <Button buttonClass="calc-operators" eventHandler={this.getResult} value="÷" />
-        <Button eventHandler={this.getResult} value="7" />
-        <Button eventHandler={this.getResult} value="8" />
-        <Button eventHandler={this.getResult} value="9" />
-        <Button buttonClass="calc-operators" eventHandler={this.getResult} value="x" />
-        <Button eventHandler={this.getResult} value="4" />
-        <Button eventHandler={this.getResult} value="5" />
-        <Button eventHandler={this.getResult} value="6" />
-        <Button buttonClass="calc-operators" eventHandler={this.getResult} value="-" />
-        <Button eventHandler={this.getResult} value="1" />
-        <Button eventHandler={this.getResult} value="2" />
-        <Button eventHandler={this.getResult} value="3" />
-        <Button buttonClass="calc-operators" eventHandler={this.getResult} value="+" />
-        <Button buttonClass="zero" eventHandler={this.getResult} value="0" />
-        <Button eventHandler={this.getResult} value="." />
-        <Button buttonClass="calc-operators" eventHandler={this.getResult} value="=" />
+        <div className="calc-result">{`${total || ''} ${operation || ''} ${next || ''}`}</div>
+        <Button eventHandler={this.calculateResult} value="AC" />
+        <Button eventHandler={this.calculateResult} value="+/-" />
+        <Button eventHandler={this.calculateResult} value="%" />
+        <Button buttonClass="calc-operators" eventHandler={this.calculateResult} value="÷" />
+        <Button eventHandler={this.calculateResult} value="7" />
+        <Button eventHandler={this.calculateResult} value="8" />
+        <Button eventHandler={this.calculateResult} value="9" />
+        <Button buttonClass="calc-operators" eventHandler={this.calculateResult} value="x" />
+        <Button eventHandler={this.calculateResult} value="4" />
+        <Button eventHandler={this.calculateResult} value="5" />
+        <Button eventHandler={this.calculateResult} value="6" />
+        <Button buttonClass="calc-operators" eventHandler={this.calculateResult} value="-" />
+        <Button eventHandler={this.calculateResult} value="1" />
+        <Button eventHandler={this.calculateResult} value="2" />
+        <Button eventHandler={this.calculateResult} value="3" />
+        <Button buttonClass="calc-operators" eventHandler={this.calculateResult} value="+" />
+        <Button buttonClass="zero" eventHandler={this.calculateResult} value="0" />
+        <Button eventHandler={this.calculateResult} value="." />
+        <Button buttonClass="calc-operators" eventHandler={this.calculateResult} value="=" />
       </div>
     );
   }
