@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Button from './Button';
 import calculate from '../logic/calculate';
 
+// render using hooks
 const Calculator = () => {
   const [state, setState] = useState({
       total: 0,
@@ -15,6 +16,8 @@ const Calculator = () => {
   };
 
   const { total, next, operation } = state;
+
+  // calculator html
   return (
     <div className="calc-container">
       <div className="calc-result">{`${total || ''} ${operation || ''} ${next || ''}`}</div>
