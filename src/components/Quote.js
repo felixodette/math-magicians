@@ -1,5 +1,6 @@
 import React from 'react';
 
+// eslint-disable-next-line no-use-before-define
 const Quote = () => (
   <div id="quote">
     <ul>
