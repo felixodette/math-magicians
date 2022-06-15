@@ -1,6 +1,6 @@
 import React from 'react';
 
-// eslint-disable-next-line no-use-before-define
+<!-- eslint-disable max-len -->
 const Quote = () => (
   <div id="quote">
     <ul>
