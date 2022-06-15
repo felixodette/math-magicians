@@ -1,6 +1,6 @@
 import React from 'react';
 
-<!-- eslint-disable max-len -->
+// eslint-disable max-len
 const Quote = () => (
   <div id="quote">
     <ul>
