@@ -1,7 +1,6 @@
 import React from 'react';
 
-const Quote = () => (
-  <div id="quote">
+const Quote = () => (<div id="quote">
     <ul>
       <li>
         &quot;In my school, the brightest boys did math and physics, the less bright did physics and chemistry,
@@ -29,7 +28,6 @@ const Quote = () => (
         <span>- Margot Lee Shetterly</span>
       </li>
     </ul>
-  </div>
-);
+  </div>);
 
 export default Quote;

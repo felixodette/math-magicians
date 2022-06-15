@@ -19,7 +19,7 @@ const Calculator = () => {
 
   // calculator html
   return (
-    <div id='calculator-section'>
+    <div id="calculator-section">
       <h2 id="calculator-header">Let&apos;s do some Math!</h2>
       <div className="calc-container">
         <div className="calc-result">{`${total || ''} ${operation || ''} ${next || ''}`}</div>
