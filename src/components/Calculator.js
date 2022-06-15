@@ -20,7 +20,7 @@ const Calculator = () => {
   // calculator html
   return (
     <div id='calculator-section'>
-      <h2 id="calculator-header">Let&apos;s do someth Math!</h2>
+      <h2 id="calculator-header">Let&apos;s do some Math!</h2>
       <div className="calc-container">
         <div className="calc-result">{`${total || ''} ${operation || ''} ${next || ''}`}</div>
         <Button eventHandler={calculateResult} value="AC" />

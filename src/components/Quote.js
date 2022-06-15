@@ -4,24 +4,29 @@ const Quote = () => (
   <div id="quote">
     <ul>
       <li>
-        &quot;Mathematics is the music of reason.&quot;
-        <span>- James Joseph Sylvester</span>
+        &quot;In my school, the brightest boys did math and physics, the less bright did physics and chemistry,
+        and the least bright did biology. I wanted to do math and physics, but my father made me do chemistry because he
+        thought there would be no jobs for mathematicians.&quot;
+        <span> - Stephen Hawking</span>
       </li>
       <li>
-        &quot;Obvoius is the most dangerous word in Mathematics.&quot;
-        <span>- Eric Temple Bell</span>
+        &quot;Mathematics is written for Mathematicians.&quot;
+        <span>- Nicolaus Corpenicus</span>
       </li>
       <li>
-        &quot;Mathematics allows for no hypocrisy and no vagueness.&quot;
-        <span>- Stendhal</span>
+        &quot;The truth has never been of any real value to any human being - it is a symbol for mathematicians and
+        philosophers to pursue. In human relations kindness and lies are worth a thousand truths..&quot;
+        <span>- Graham Greene</span>
       </li>
       <li>
-        &quot;It is impossible to be a Mathematician without being a poet in soul.&quot;
-        <span>- Sofia Kovalevskaya</span>
+        &quot;Programming is one of the most difficult branches of applied mathematics; the poorer mathematicians had
+        better remain pure mathematicians..&quot;
+        <span>- Edsger Dijkstra</span>
       </li>
       <li>
-        &quot;Go down deep enough into anything and you will find Mathematics.&quot;
-        <span>- Dean Schlicter</span>
+        &quot;It has been very rare to see a black woman as a protagonist. And also as three-dimensional people -
+        mathematicians, mothers, wives, complicated people, not perfect..&quot;
+        <span>- Margot Lee Shetterly</span>
       </li>
     </ul>
   </div>
