@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote page test Quote page render 1`] = `
+<div
+  id="quote"
+>
+  <ul>
+    <li>
+      "In my school, the brightest boys did math and physics."
+      <span>
+         - Stephen Hawking
+      </span>
+    </li>
+    <li>
+      "Mathematics is written for Mathematicians."
+      <span>
+        - Nicolaus Corpenicus
+      </span>
+    </li>
+    <li>
+      "The truth has never been of any real value to any human being."
+      <span>
+        - Graham Greene
+      </span>
+    </li>
+    <li>
+      "Programming is one of the most difficult branches of applied mathematics."
+      <span>
+        - Edsger Dijkstra
+      </span>
+    </li>
+    <li>
+      "It has been very rare to see a black woman as a protagonist."
+      <span>
+        - Margot Lee Shetterly
+      </span>
+    </li>
+  </ul>
+</div>
+`;

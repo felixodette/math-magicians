@@ -54,6 +54,11 @@ Authors
 * Twitter: @Odette3000
 * [LinkedIn: Felix Odete](https://www.linkedin.com/in/felixodete)
 
+👤 Emmanuel Mensah
+* GitHub: [@principle31](https://github.com/principles31)
+* Twitter: [@manuel31mens](https://Twiter.com/@Manuel31mens)
+* LinkedIn: [emmanuel-mensah](www.linkedin.com/in/emmanuel-mensah-6a044922a)
+
 ##🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 Feel free to check the issues page.
