@@ -1,39 +1,120 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+html {
+  background-color: #dee2e6;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.calc-container {
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  grid-template-rows: repeat(6, 70px);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.calc-result {
+  grid-column: 1/span 4;
+  background-color: slategrey;
+  color: #fff;
+  text-align: right;
+  padding: 18px;
+  font-size: 30px;
+}
+
+button {
+  color: black;
+  font-size: 16px;
+  outline: none;
+  border: 1px solid #343a34;
+  background-color: navajowhite;
+}
+
+button:hover {
+  background-color: #295050;
+  border: 1px solid #495057;
+}
+
+.zero {
+  grid-column: 1/span 2;
+}
+
+.operators {
+  background-color: darkorange;
+  font-size: 18px;
+}
+
+header {
+  width: 100vw;
+  height: 60px;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  padding: 0 60px;
+  box-sizing: border-box;
+  background-color: #edf2fb;
+  box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
+}
+
+#logoHeader {
+  font-size: 25px;
+  color: darkgoldenrod;
+}
+
+.navLink {
+  text-decoration: none;
+  display: inline-flex;
+  padding-right: 10px;
+  color: chocolate;
+  font-size: 18px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navLink:hover {
+  color: cadetblue;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+#calculator-section {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
+#quote {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  to {
-    transform: rotate(360deg);
-  }
+#quote ul {
+  border: 1px solid #e3f2fd;
+  padding: 25px 25px 25px 50px;
+  background-color: #fff;
+}
+
+#quote ul li {
+  padding-bottom: 10px;
+}
+
+#homePage {
+  width: 60%;
 }
