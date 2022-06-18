@@ -8,6 +8,10 @@ Read a random math-related quote.
 * Javascript ES6, CSS3, HTML5
 * React
 
+## Live Link
+[Heroku]( https://git.heroku.com/odette-magicians.git)
+[Netlify]( https://git.heroku.com/odette-magicians.git)
+
 ## Getting Started
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
